@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gicana - Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    
+<button onclick="DarkMode()">Dark Mode</button>
+
+<script>
+
+function DarkMode() {
+
+    let bg = document.body;
+
+    bg.style.backgroundColor = "#222222";
+    bg.style.color = "#e7dfd3";
+
+    let sections = document.getElementsByClassName("section");
+
+    for (let i = 0; i < sections.length; i++) {
+        sections[i].style.backgroundColor = "#222222";
+    }
+
+}
+
+</script>
+
+
+
+    <nav>
+
+        <div class="logo">
+            <h2>Herbert A. Gicana</h2>
+        </div>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <div class="home" id="home">
+
+        <div class="home-text">
+
+            <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm<br><span>Herbert Gicana</span></h1>
+
+            <p>
+                An Information Technology student who doesnt know
+                why he's here just up for the challenge and eager
+                to learn new things for now i'm interested in
+                programming, web development, graphic design,
+                and technology.
+            </p>
+
+            <a class="button" href="#about">ABOUT ME</a>
+
+        </div>
+
+        <div class="home-image">
+
+            <img src="profile.png" alt="Profile Picture">
+
+        </div>
+
+    </div>
+
+
+    <div class="section" id="about">
+
+        <h1>ABOUT ME</h1>
+
+        <div class="row">
+
+            <div class="about-image">
+
+                <img src="profile2.png" alt="Profile Picture">
+
+            </div>
+
+            <div class="about-text">
+
+                <h2>Personal Information</h2>
+
+                <p>
+                    Hello! My name is Herbert A. Gicana. I am an
+                    Information Technology student who enjoys
+                    learning about computers, programming, and
+                    web development.
+                </p>
+
+                <p>
+                    I am currently developing my skills in HTML,
+                    CSS, database management, and graphic design.
+                    I enjoy creating websites and learning how
+                    technology can solve real world problems.
+                </p>
+
+                <p>
+                    My goal is to continue improving my skills and
+                    create useful, responsive, and user friendly
+                    websites and applications.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="section" id="education">
+
+        <h1>EDUCATIONAL BACKGROUND</h1>
+
+        <div class="row">
+
+            <div class="card">
+
+                <img src="school1.png" alt="School">
+
+                <div class="card-text">
+
+                    <p class="category">TERTIARY</p>
+
+                    <h2>Bachelor of Science in Information Technology</h2>
+
+                    <p>CSTC Sariaya Campus</p>
+
+                    <p>2025 - Present</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="school2.png" alt="School">
+
+                <div class="card-text">
+
+                    <p class="category">SENIOR HIGH SCHOOL</p>
+
+                    <h2>TVL - Home Economics</h2>
+
+                    <p>CSTC Sariaya Quezon</p>
+
+                    <p>2022 - 2024</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="school3.png" alt="School">
+
+                <div class="card-text">
+
+                    <p class="category">JUNIOR HIGH SCHOOL</p>
+
+                    <h2>Junior High School Education</h2>
+
+                    <p>CSTC Sariaya Quezon</p>
+
+                    <p>2018 - 2022</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="section" id="skills">
+
+        <h1>MY SKILLS</h1>
+
+        <div class="row">
+
+            <div class="skill">
+
+                <h2>PHOTO EDITING</h2>
+
+                <p>
+                    photo editing using Photoshop,
+                    Canva, Lightroom and Picsart
+                </p>
+
+            </div>
+
+
+            <div class="skill">
+
+                <h2>GRAPHIC DESIGN</h2>
+
+                <p>
+                    Creating digital posters, layouts, and
+                    promotional graphics.
+                </p>
+
+            </div>
+
+
+            <div class="skill">
+
+                <h2>DATABASE MANAGEMENT</h2>
+
+                <p>
+                    Organizing information and creating structured
+                    databases for different systems.
+                </p>
+
+            </div>
+
+
+            <div class="skill">
+
+                <h2>DIGITAL ARTS</h2>
+
+                <p>
+                    Creating digital artwork and visual content
+                    using different design techniques.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="section" id="projects">
+
+        <h1>FEATURED PROJECTS</h1>
+
+        <div class="row">
+
+            <div class="card project">
+
+                <img src="project1.png" alt="Project">
+
+                <div class="card-text">
+
+                    <p class="category">PROJECT 01</p>
+
+                    <h2>Photo Editing</h2>
+
+                    <p>
+                        A creative digital poster created for
+                        an academic project.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card project">
+
+                <img src="project2.png" alt="Project">
+
+                <div class="card-text">
+
+                    <p class="category">PROJECT 02</p>
+
+                    <h2>Graphic Design</h2>
+
+                    <p>
+                        A graphic design project focused on
+                        visual presentation and creativity.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card project">
+
+                <img src="project3.png" alt="Project">
+
+                <div class="card-text">
+
+                    <p class="category">PROJECT 03</p>
+
+                    <h2>Database Management</h2>
+
+                    <p>
+                        A database project designed to organize
+                        and manage information efficiently.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="section" id="achievements">
+
+        <h1>ACHIEVEMENTS</h1>
+
+        <div class="row">
+
+            <div class="achievement">
+
+                <h2>JUNIOR HIGH SCHOOL</h2>
+
+            </div>
+
+
+            <div class="achievement">
+
+                <h2>SENIOR HIGH SCHOOL</h2>
+
+
+                <p>Cookery NC II Passer</p>
+
+            </div>
+
+
+            <div class="achievement">
+
+                <h2>TERTIARY</h2>
+
+                <p>BS Information Technology Student</p>
+
+                <p>Syntax Executive the Position of Director for Ethics and Internal Affairs
+                    and one of the Syntax Creatives which is the Graphics and Design 3
+                    Head of Photo Editing
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="contact" id="contact">
+
+        <h1>LET'S CONNECT</h1>
+
+        <p>
+            Thank you for visiting my personal portfolio.
+        </p>
+
+        <p>
+            You can connect with me through my social media
+            accounts.
+        </p>
+
+        <div class="social">
+
+            <a href="https://www.facebook.com/yur.seinie/">Facebook</a>
+
+            <a href="https://www.instagram.com/salty.sein/?hl=en">Instagram</a>
+
+            <a href="https://www.tiktok.com/@snyfllr">TikTok</a>
+
+        </div>
+
+        <p class="copyright">
+            © Herbert Gicana | Student Portfolio
+        </p>
+
+    </div>
+
+</body>
+
+</html>
